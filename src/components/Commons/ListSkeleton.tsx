@@ -26,10 +26,10 @@ export const ListSkeleton: FC<Props> = (props) => {
               </svg>
             </div>
             <div className="my-12">
-              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-36 mb-4"></div>
-              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-36 mb-4"></div>
-              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-36 mb-4"></div>
-              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-36 mb-4"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-8/12 mb-4"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-8/12 mb-4"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-8/12 mb-4"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full mx-auto  w-8/12 mb-4"></div>
             </div>
 
             <span className="sr-only">Loading...</span>
