@@ -14,7 +14,7 @@ export const ListSkeleton: FC<Props> = (props) => {
             role="status"
             className="p-4 max-w-sm rounded border border-gray-200 shadow animate-pulse md:p-6"
           >
-            <div className="flex justify-center items-center mb-4 h-60 bg-gray-300 rounded ">
+            <div className="flex justify-center items-center mb-4 h-20 md:h-60 bg-gray-300 rounded ">
               <svg
                 className="w-12 h-12 text-gray-200 "
                 xmlns="http://www.w3.org/2000/svg"
