@@ -12,13 +12,13 @@ export const Order: FC<OrderProps> = (props) => {
   return (
     <div className="md:w-1/2 w-full  flex items-center md:justify-end justify-center order-1 md:order-none mb-4 md:mb-0">
       <button
-        className="text-6xl font-bold text-gray-600 mr-4"
+        className="text-6xl font-bold text-gray-600 mr-4 outline-none"
         onClick={() => handleAscending(products)}
       >
         +
       </button>
       <button
-        className="text-6xl font-bold text-gray-600 mr-4"
+        className="text-6xl font-bold text-gray-600 mr-4 outline-none"
         onClick={() => handleDescending(products)}
       >
         -
