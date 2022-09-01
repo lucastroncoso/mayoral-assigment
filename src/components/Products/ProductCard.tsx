@@ -9,7 +9,7 @@ export const ProductCard = (props: ProducCardProps) => {
     <div
       data-testid="productCard"
       key={product.id}
-      className="group relative shadow shadow-sky-400/50 overflow-hidden rounded-md group-hover:opacity-75 md:px-4 md:py-4 py-4 px-1"
+      className="group relative shadow shadow-sky-400/50 overflow-hidden rounded-md group-hover:opacity-75 md:px-4 md:py-4 pb-4 px-1"
     >
       <div className=" aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:aspect-none lg:h-40">
         <img
@@ -18,7 +18,7 @@ export const ProductCard = (props: ProducCardProps) => {
           className="h-full w-full object-contain object-center"
         />
       </div>
-      <div className="mt-4 flex flex-col items-center h-60 justify-around">
+      <div className="mt-4 flex flex-col items-center md:h-60 justify-around">
         <div className="w-full">
           <h3  data-testid="cardTitle" className="text-sm text-gray-700 truncate text-center font-medium">
             {product.title}
